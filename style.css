@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+body {
+  background-color: #0d0220;
+}
+/*----------title----------*/
+.title > h1 {
+  margin-top: 30px;
+  text-align: center;
+  color: #b00cdd;
+}
+
+/*----------score----------*/
+.score-board {
+  width: 300px;
+  height: 100px;
+  margin: 30px auto;
+  border: 5px solid #b59dc4;
+  text-align: center;
+  position: relative;
+}
+
+#user_label {
+  width: 80px;
+  background-color: #b00cdd;
+  position: absolute;
+  left: -45px;
+  top: 35px;
+  font-size: 30px;
+}
+
+#computer_label {
+  width: 80px;
+  background-color: #b00cdd;
+  position: absolute;
+  right: -45px;
+  top: 35px;
+  font-size: 30px;
+}
+
+.score {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+/*----------images----------*/
+.choices {
+  text-align: center;
+}
+
+.choices > h2 {
+  margin-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+.choice {
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  margin: 30px 30px;
+  border: 5px solid #b59dc4;
+  border-radius: 50%;
+}
+
+.choice > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/*---------Border----------*/
+.yellow-glow {
+  border: 5px solid yellow;
+}
+
+.green-glow {
+  border: 5px solid green;
+}
+
+.red-glow {
+  border: 5px solid red;
+}
+
+.yellow {
+  background-color: yellow !important;
+}
+
+.green {
+  background-color: green !important;
+}
+
+.red {
+  background-color: red !important;
+}
